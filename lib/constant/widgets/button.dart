@@ -11,7 +11,7 @@ class LoginSignUpButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 284,
+      width: 300,
       height: 45,
       decoration: BoxDecoration(
         color: backGround,
@@ -23,8 +23,8 @@ class LoginSignUpButton extends StatelessWidget {
           label.toString(),
           style: TextStyle(
             color: textColor,
-            fontSize: 22,
-            fontWeight: FontWeight.w300,
+            fontSize: 18,
+            fontWeight: FontWeight.w500,
             height: 0,
             letterSpacing: 1.68,
           ),
